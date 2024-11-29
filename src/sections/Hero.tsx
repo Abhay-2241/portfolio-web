@@ -77,7 +77,7 @@ export const HeroSection = () => {
           <span className='font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text'>Full Stack</span> Developer
            based in <span className='font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text'>India</span><br></br>
            Strive for good <span className='font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text'>Learning Curve</span><br></br>
-           <span className='font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text'>AI ans Web3 </span> Enthusiast.
+           <span className='font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text'>AI and Web3 </span> Enthusiast.
           </p>
         </div>
         <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>
@@ -86,12 +86,10 @@ export const HeroSection = () => {
             <span className='font-semibold'>Explore My Work</span>
             <ArrowDown className='size-4' />
           </button>
-          <button className='inline-flex items-center gap-2 border border-whtie bg-white text-gray-900 h-12 px-6 rounded-xl'>
-            <span>👋</span>
-            <span className='font-semibold '>Let's Connect</span>
-          </button>
+          
         </div>
       </div>
     </div>
   );
 };
+

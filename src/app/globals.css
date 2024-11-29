@@ -17,3 +17,14 @@
         @apply lg:max-w-5xl
     }
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
+  html {
+    scroll-behavior: smooth !important;
+  }
+  
+  * {
+    scroll-padding-top: 80px;
+  }
